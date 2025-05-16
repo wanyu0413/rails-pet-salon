@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
+    def home
+    end
+    
     def about
-        # This action is intentionally left blank.
     end
 end
