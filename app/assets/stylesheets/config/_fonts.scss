@@ -1,0 +1,11 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Eagle+Lake&family=Kiwi+Maru:wght@300;400;500&display=swap');
+
+// Define fonts for body and headers
+$body-font: "Cabin", sans-serif;
+$headers-font: "Eagle Lake", serif;
+$japanese-font: "Kiwi Maru", serif;
+
+html, body {
+  font-family: $body-font;
+}
