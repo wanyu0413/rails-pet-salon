@@ -9,3 +9,8 @@ $japanese-font: "Kiwi Maru", serif;
 html, body {
   font-family: $body-font;
 }
+
+@function rem($px-value) {
+  $rem-value: $px-value / 16;
+  @return #{$rem-value}rem;
+}
