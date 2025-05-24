@@ -28,7 +28,12 @@
     font-weight: medium;
 }
 
-#btn-flow {
+#btn-flow, #btn-menu {
     width: rem(160);
+    height: rem(75);
+}
+
+#btn-location {
+    width: rem(200);
     height: rem(75);
 }
