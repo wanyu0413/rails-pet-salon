@@ -3,10 +3,13 @@
     font-size: rem(50);
     color: $blue;
     font-weight: 300;
+    margin: 0;
+    text-shadow: 0px 0px 20px $blue;
 }
 
 .subtitle {
     font-size: rem(20);
     color: $yellow;
     font-weight: 300;
+    margin-bottom: rem(40);
 }
