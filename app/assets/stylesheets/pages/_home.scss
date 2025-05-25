@@ -1,1 +1,10 @@
-// Specific CSS for your home-page
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.about-content {
+    max-width: rem(550);
+}
