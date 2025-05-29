@@ -108,4 +108,34 @@
         z-index: 0; 
         pointer-events: none;
     }
+
+    .flow-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(76);
+        position: relative;
+        z-index: 2;
+
+        .flow-item {
+            &-l, &-r {
+                display: flex;
+                column-gap: rem(100);
+                .flow-img-container {
+                    width: rem(240);
+                    height: rem(165);
+                    border: solid rem(1) $gray-blue;
+                }
+            }
+
+            &-l {
+                justify-content: flex-start;
+                padding-left: rem(90);
+            }
+
+            &-r {
+                justify-content: flex-end;
+                padding-right: rem(90);
+            }
+        }
+    }
 }
