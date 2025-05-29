@@ -13,3 +13,21 @@
     font-weight: 300;
     margin-bottom: rem(40);
 }
+
+.section-title {
+    font-family: $headers-font;
+    font-weight: 300;
+    font-size: rem(200);
+    line-height: 100%;
+    margin: 0;
+    color: $white;
+    text-align: right;
+    position: absolute;
+    z-index: 2;
+    left: 100%;
+    transform: translateX(-100%);
+}
+
+#flow .section-title {
+    padding-top: rem(130);
+}

@@ -28,7 +28,7 @@
 
     // Background layer
     &::after {
-        background-color: black;
+        background-color: $black;
         clip-path: path("M680 -6.10352e-05L1440 -6.10352e-05V380.5L681.5 850H0L0 420.5L680 -6.10352e-05Z");
         width: 100%;
         height: 100%;
@@ -46,7 +46,7 @@
         position: absolute;
         top: rem(140);
         left: rem(-200);
-        background-color: black;
+        background-color: $black;
     }
     
     .icon-duck {
@@ -98,7 +98,7 @@
     position: relative;
     height: rem(850);
     &::after {
-        background-color: black;
+        background-color: $black;
         clip-path: path("M680 850L1440 850V469.5L681.5 0H0L0 429.5L680 850Z");
         width: 100%;
         height: 100%;
