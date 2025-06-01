@@ -121,9 +121,23 @@
                 display: flex;
                 column-gap: rem(100);
                 .flow-img-container {
-                    width: rem(240);
-                    height: rem(165);
-                    border: solid rem(1) $gray-blue;
+                    .order-number {
+                        font-family: $headers-font;
+                        font-size: rem(60);
+                        font-weight: 300;
+                        margin: 0;
+                        text-shadow: 0px 0px 20px $orange;
+                        line-height: 100%;
+                        border-left: rem(10) solid $orange;
+                        &._one {
+                           color: $orange;
+                        }
+                    }
+                    .flow-img {
+                        width: rem(240);
+                        height: rem(165);
+                        background-color: $gray-blue;
+                    }
                 }
             }
 
