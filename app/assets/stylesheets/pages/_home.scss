@@ -126,11 +126,24 @@
                         font-size: rem(60);
                         font-weight: 300;
                         margin: 0;
-                        text-shadow: 0px 0px 20px $orange;
                         line-height: 100%;
-                        border-left: rem(10) solid $orange;
-                        &._one {
+                        &._one_two {
                            color: $orange;
+                           border-left: rem(10) solid $orange;
+                           text-shadow: 0px 0px 20px $orange;
+                        }
+                        &._three_four {
+                            color: $blue;
+                            border-left: rem(10) solid $blue;
+                            text-shadow: 0px 0px 20px $blue;
+                        }
+                        &._five_six {
+                            color: $wine;
+                            border-left: rem(10) solid $wine;
+                        }
+                        &._seven_eight {
+                            color: $yellow;
+                            border-left: rem(10) solid $yellow;
                         }
                     }
                     .flow-img {
