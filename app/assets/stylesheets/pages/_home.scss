@@ -121,6 +121,11 @@
                 display: flex;
                 column-gap: rem(100);
                 .flow-img-container {
+                    max-width: rem(240);
+                    color: $white;
+                    h3, p {
+                        font-weight: 300;
+                    }
                     .order-number {
                         font-family: $headers-font;
                         font-size: rem(60);
