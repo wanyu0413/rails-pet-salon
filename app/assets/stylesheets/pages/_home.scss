@@ -171,3 +171,27 @@
         }
     }
 }
+
+#menu {
+    position: relative;
+    height: rem(850);
+    &::after {
+        background-color: $black;
+        clip-path: path("M760 850L0 850V469.5L758.5 0H1440L1440 429.5L760 850Z");
+        width: 100%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: 0; 
+        pointer-events: none;
+    }
+
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: rem(76);
+        position: relative;
+        z-index: 2;
+    }
+}
