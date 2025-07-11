@@ -1,5 +1,9 @@
 .content {
     margin-top: rem(486);
+    min-width: rem(1440);
+    max-width: rem(1440);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about {
@@ -94,7 +98,7 @@
     }
 }
 
-#flow_1{
+#flow_1, #menu_1{
     position: relative;
     height: rem(850);
     &::after {
@@ -110,7 +114,7 @@
     }
 }
 
-#flow_2 {
+#flow_2, #menu_2 {
     position: relative;
     height: rem(850);
     &::after {
@@ -191,5 +195,10 @@
     }
 }
 
-#menu {
+#menu_1{
+
+}
+
+#menu_2 {
+
 }
