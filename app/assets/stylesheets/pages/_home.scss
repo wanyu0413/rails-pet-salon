@@ -98,7 +98,7 @@
     }
 }
 
-#flow_1, #menu_1{
+#flow_1, #menu_1, #flow_2, #menu_2, #location, #footer {
     position: relative;
     height: rem(850);
     &::after {
@@ -114,19 +114,31 @@
     }
 }
 
+#flow_1, #menu_1{
+    &::after {
+        background-color: $black;
+        clip-path: path("M680 850L1440 850V469.5L681.5 0H0L0 429.5L680 850Z");
+    }
+}
+
 #flow_2, #menu_2 {
-    position: relative;
-    height: rem(850);
     &::after {
         background-color: $black;
         clip-path: path("M680 0L1440 0V380.5L681.5 850H0L0 420.5L680 0Z");
-        width: 100%;
-        height: 100%;
-        content: "";
-        position: absolute;
-        inset: 0;
-        z-index: 0; 
-        pointer-events: none;
+    }
+}
+
+#location {
+    &::after {
+        background-color: $black;
+        clip-path: path("M947 850L1440 850V469.5L681.5 0H0L0 263L947 850Z");
+    }
+}
+
+#footer {
+    &::after {
+        background-color: $black;
+        clip-path: path("M947 0L1440 0V380.5V850L0 850L0 587L947 0Z");
     }
 }
 
