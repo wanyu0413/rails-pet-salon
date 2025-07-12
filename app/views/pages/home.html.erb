@@ -1,110 +1,140 @@
 <%# er %>
 <%# pe %>
 <div class="navbar">
-    <div class="header-logo">
-        <%= image_tag 'Logo.svg', alt: 'Logo' %>
+  <div class="header-logo">
+    <%= image_tag 'Logo.svg', alt: 'Logo' %>
+  </div>
+  <div class="navbar-links">
+    <div class="btn" id="btn-flow">
+      <%= link_to "Flow", "#flow", class: "btn-text" %>
     </div>
-
-    <div class="navbar-links">
-        <div class="btn" id="btn-flow">
-            <%= link_to "Flow", "#flow", class: "btn-text" %>
-        </div>
-    
-        <div class="btn" id="btn-menu">
-            <%= link_to "Menu", "#menu", class: "btn-text" %>
-        </div>
-
-        <div class="btn" id="btn-location">
-            <%= link_to "Location", "#location", class: "btn-text" %>
-        </div>
+    <div class="btn" id="btn-menu">
+      <%= link_to "Menu", "#menu", class: "btn-text" %>
     </div>
+    <div class="btn" id="btn-location">
+      <%= link_to "Location", "#location", class: "btn-text" %>
+    </div>
+  </div>
 </div>
-
 <div class="content">
-    <div class="about">
-        <div class="dach-body"></div>
-        <%=image_tag  'duck.svg', alt: 'Duck', class: 'icon-duck' %>
-        <div class="about-content">
-            <h1 class="title">OniDon</h1>
-            <h3 class="subtitle">For dogs with style that goes on and on! </h3>
-            <p>We're a cozy little pet salon with a big heart, dedicated to making your furry best friends look and feel amazing.</p>
-            <p>From bubbly baths to fresh haircuts and belly rubs in between, we make grooming a fun and stress-free experience. </p>
-            <%= image_tag 'long-body.svg', alt: 'Long body dachshund bg', class: 'img-long-dach' %>
-        </div>
+  <div class="about">
+    <div class="dach-body"></div>
+    <%=image_tag  'duck.svg', alt: 'Duck', class: 'icon-duck' %>
+    <div class="about-content">
+      <h1 class="title">OniDon</h1>
+      <h3 class="subtitle">For dogs with style that goes on and on! </h3>
+      <p>We're a cozy little pet salon with a big heart, dedicated to making your furry best friends look and feel amazing.</p>
+      <p>From bubbly baths to fresh haircuts and belly rubs in between, we make grooming a fun and stress-free experience. </p>
+      <%= image_tag 'long-body.svg', alt: 'Long body dachshund bg', class: 'img-long-dach' %>
     </div>
-
-    <%# Flow Section %>
-    <div id="flow_1">
-        <h1 class="section-title">Flow</h1>
-        <div class="flow-container">
-            <%# Align left %>
-            <div class="flow-item-l">
-                <div class="flow-img-container">
-                    <h1 class="order-number _one_two">01</h1>
-                    <div class="flow-img"></div>
-                    <h3>Health Check</h3>
-                    <p>Basic physical check for skin, coat, eyes, ears, etc.</p>
-                </div>
-                <div class="flow-img-container">
-                    <h1 class="order-number _one_two">02</h1>
-                    <div class="flow-img"></div>
-                    <h3>Nail Trimming</h3>
-                    <p>Clipping the dog’s nails for comfort and health.</p>
-                </div>
-            </div>
-            <%# Align right %>
-            <div class="flow-item-r">
-                <div class="flow-img-container">
-                    <h1 class="order-number _three_four">03</h1>
-                    <div class="flow-img"></div>
-                    <h3>Paw Pad Clipping</h3>
-                    <p>Trimming hair around the paw pads.</p>
-                </div>
-                <div class="flow-img-container">
-                    <h1 class="order-number _three_four">04</h1>
-                    <div class="flow-img"></div>
-                    <h3>Ear Cleaning</h3>
-                    <p>Removing dirt or wax from the ears.</p>
-                </div>
-            </div>
+  </div>
+  <%# Flow Section %>
+  <div id="flow_1">
+    <h1 class="section-title">Flow</h1>
+    <div class="flow-container">
+      <%# Align left %>
+      <div class="flow-item-l">
+        <div class="flow-img-container">
+          <h1 class="order-number _one_two">01</h1>
+          <div class="flow-img"></div>
+          <h3>Health Check</h3>
+          <p>Basic physical check for skin, coat, eyes, ears, etc.</p>
         </div>
-    </div>
-    <div id="flow_2">
-        <div class="flow-container">
-            <%# Align right %>
-            <div class="flow-item-r">
-                <div class="flow-img-container">
-                    <h1 class="order-number _five_six">05</h1>
-                    <div class="flow-img"></div>
-                    <h3>Anal Gland Expression</h3>
-                    <p>Gently expressing glands to prevent buildup.</p>
-                </div>
-                <div class="flow-img-container">
-                    <h1 class="order-number _five_six">06</h1>
-                    <div class="flow-img"></div>
-                    <h3>Shampoo & Conditioner</h3>
-                    <p>Thorough washing and conditioning of the coat.</p>
-                </div>
-            </div>
-            <%# Align left %>
-            <div class="flow-item-l">
-                <div class="flow-img-container">
-                    <h1 class="order-number _seven_eight">07</h1>
-                    <div class="flow-img"></div>
-                    <h3>Drying</h3>
-                    <p>Blow-drying and brushing the coat.</p>
-                </div>
-                <div class="flow-img-container">
-                    <h1 class="order-number _seven_eight">08</h1>
-                    <div class="flow-img"></div>
-                    <h3>Full Body Haircut</h3>
-                    <p>Trimming or styling the coat according to breed or owner request.</p>
-                </div>
-            </div>
+        <div class="flow-img-container">
+          <h1 class="order-number _one_two">02</h1>
+          <div class="flow-img"></div>
+          <h3>Nail Trimming</h3>
+          <p>Clipping the dog’s nails for comfort and health.</p>
         </div>
+      </div>
+      <%# Align right %>
+      <div class="flow-item-r">
+        <div class="flow-img-container">
+          <h1 class="order-number _three_four">03</h1>
+          <div class="flow-img"></div>
+          <h3>Paw Pad Clipping</h3>
+          <p>Trimming hair around the paw pads.</p>
+        </div>
+        <div class="flow-img-container">
+          <h1 class="order-number _three_four">04</h1>
+          <div class="flow-img"></div>
+          <h3>Ear Cleaning</h3>
+          <p>Removing dirt or wax from the ears.</p>
+        </div>
+      </div>
     </div>
-    <div id="menu_1"><h1 class="section-title">Menu</h1></div>
-    <div id="menu_2"></div>
-    <div id="location"><h1 class="section-title">Location</h1></div>
-    <div id="footer"></div>
-</div>
+  </div>
+  <div id="flow_2">
+    <div class="flow-container">
+      <%# Align right %>
+      <div class="flow-item-r">
+        <div class="flow-img-container">
+          <h1 class="order-number _five_six">05</h1>
+          <div class="flow-img"></div>
+          <h3>Anal Gland Expression</h3>
+          <p>Gently expressing glands to prevent buildup.</p>
+        </div>
+        <div class="flow-img-container">
+          <h1 class="order-number _five_six">06</h1>
+          <div class="flow-img"></div>
+          <h3>Shampoo & Conditioner</h3>
+          <p>Thorough washing and conditioning of the coat.</p>
+        </div>
+      </div>
+      <%# Align left %>
+      <div class="flow-item-l">
+        <div class="flow-img-container">
+          <h1 class="order-number _seven_eight">07</h1>
+          <div class="flow-img"></div>
+          <h3>Drying</h3>
+          <p>Blow-drying and brushing the coat.</p>
+        </div>
+        <div class="flow-img-container">
+          <h1 class="order-number _seven_eight">08</h1>
+          <div class="flow-img"></div>
+          <h3>Full Body Haircut</h3>
+          <p>Trimming or styling the coat according to breed or owner request.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menu_1">
+    <h1 class="section-title">Menu</h1>
+  </div>
+  <div id="menu_2"></div>
+  <div id="location">
+    <h1 class="section-title">Location</h1>
+  </div>
+  <div id="pre_footer"></div>
+  <footer>
+    <svg viewBox="0 0 120 28">
+      <defs>
+        <mask id="xxx">
+          <circle cx="7" cy="12" r="40" fill="#fff" />
+        </mask>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="
+                1 0 0 0 0  
+                0 1 0 0 0  
+                0 0 1 0 0  
+                0 0 0 13 -9" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+        <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+      </defs>
+      <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use>
+      <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+      <g class="topball">
+         <g class="icon-duck ball" transform="translate(100, 5) scale(0.1)">
+            <path d="M22.3337 10.6665C21.0076 10.6665 19.7358 11.1933 18.7981 12.131C17.8604 13.0687 17.3337 14.3404 17.3337 15.6665C17.3337 16.9926 17.8604 18.2644 18.7981 19.202C19.7358 20.1397 21.0076 20.6665 22.3337 20.6665C23.6597 20.6665 24.9315 20.1397 25.8692 19.202C26.8069 18.2644 27.3337 16.9926 27.3337 15.6665C27.3337 14.3404 26.8069 13.0687 25.8692 12.131C24.9315 11.1933 23.6597 10.6665 22.3337 10.6665ZM27.3337 0.666504C31.7539 0.666504 35.9932 2.42245 39.1188 5.54806C42.2444 8.67366 44.0003 12.9129 44.0003 17.3332C44.0003 22.9998 41.167 27.9998 36.867 30.9998C42.1337 31.4998 48.067 32.6998 54.0003 35.6665C64.0003 40.6665 67.3337 33.9998 67.3337 33.9998C67.3337 33.9998 64.0003 63.9998 44.0003 63.9998H24.0003C24.0003 63.9998 7.33366 63.9998 7.33366 47.3332C7.33366 37.3332 17.3337 33.9998 14.0003 27.3332C0.666992 27.3332 0.666992 15.6665 0.666992 15.6665C4.00033 17.3332 8.13366 17.3332 10.667 16.1665C10.9781 11.9572 12.8684 8.0209 15.9592 5.14648C19.05 2.27205 23.1129 0.67184 27.3337 0.666504Z" fill="#FFC470"/>
+         </g>
+      </g>
+      <g class="gooeff">
+        <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+        <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+        <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+        <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+      </svg>
+    </footer>
+  </div>

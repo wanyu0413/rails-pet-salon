@@ -98,7 +98,7 @@
     }
 }
 
-#flow_1, #menu_1, #flow_2, #menu_2, #location, #footer {
+#flow_1, #menu_1, #flow_2, #menu_2, #location, #pre_footer {
     position: relative;
     height: rem(850);
     &::after {
@@ -135,7 +135,7 @@
     }
 }
 
-#footer {
+#pre_footer {
     &::after {
         background-color: $black;
         clip-path: path("M947 0L1440 0V380.5V850L0 850L0 587L947 0Z");
@@ -205,12 +205,4 @@
             }
         }
     }
-}
-
-#menu_1{
-
-}
-
-#menu_2 {
-
 }
